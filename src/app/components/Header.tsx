@@ -1,5 +1,5 @@
 'use client'
-
+import Link from 'next/link';
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
 import { coinbaseWallet } from 'wagmi/connectors';
 import { BlueCreateWalletButton } from './BlueCreateWalletButton';
@@ -13,7 +13,9 @@ function Header() {
   return (
     <main className='header-container'>
       <div>
-        <h1>🧠 🏰 Mind Palace</h1>
+        <Link href="/">
+          <h1>🧠 🏰 Mind Palace</h1>
+        </Link>
       </div>
       <div className='button-row'>
         <BlueCreateWalletButton />

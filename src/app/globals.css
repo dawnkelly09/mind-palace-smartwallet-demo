@@ -21,6 +21,12 @@ main {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(20, 27, 33);
 }
 
 .header-container {
@@ -85,6 +91,10 @@ main {
   flex-direction: column;
   justify-content: space-around;
   max-width: 50%;
+  gap: 18px;
+}
+
+.canvas-item-container {
   gap: 18px;
 }
 
